@@ -18,11 +18,11 @@
 # 22 Nov 2021 Derek - Code moved to ROS2 and Python3
 #
 ###############################################################################
-import sys, os
+import sys,os
 
 import rclpy
-
 from rclpy.node     import Node
+
 from std_msgs.msg   import String, Bool
 #import pocketsphinx # In June 2017 gave up on this one!!
 
